@@ -1,13 +1,13 @@
 # Web of Things Platform (WeT) - Overview
 LightwaveRF Home Automation based on Internet of Things 
 
-LightWaveRF wifi link communication for command line home automation. A ruby gem for lightwaverf home automation. Interact with lightwaverf wifi link from code or the command line. Control your lights, heating, sockets etc. Also set up timers using a google calendar and log energy usage.
+LightWaveRF WiFi link communication for command line home automation. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. Control your 220V lights, "smart" bulbs, changeable led (luminance and color), sockets, heating, tap water, curtain, screen, projector, camera, sound, lockers, access control, gas, TV, air conditioner, other home-related sensors. Also set up timers using a google calendar and log energy usage.
 
 # Setup
-Get a LightWaveRF wifi link http://amzn.to/V7yPPK and a remote socket http://amzn.to/RkukDo
+Get a LightWaveRF WiFi-link for remote iPhone or Android Mobile Phone lighting control http://amzn.to/V7yPPK and a remote socket - connected light switch, double dimmer wireless - iOS, iPhone and Android Smart Home automation control http://amzn.to/RkukDo
 
 Install gem
 Then this code is available as a gem, so:
 
-gem install lightwaverf
+gem install LightWaveRF
 No need to do anything with this repo unless you are particularly interested.
