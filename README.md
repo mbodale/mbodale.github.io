@@ -3,7 +3,8 @@
 # LightWaveRF Smart Home Automation based on Internet of Things
 
 LightWaveRF WiFi link communication for command line home automation, Google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. 
-Control your 
+
+Remote control:
 * 220V light bulbs, outdoor lighting, utility lights (turning the lights ON/OFF)
 * changeable LED RGB (light effects, brightness, luminance and color)
 * power sockets & adaptors
