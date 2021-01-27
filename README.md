@@ -292,29 +292,5 @@ try
     sudo apt-get install ruby1.9.1-dev
 
 I think this is down to the json library I am using, but haven't tracked it down yet. If you can help, please pull request!
-
-# History
-
-  * v 0.15.0 delayed timers
-  * v 0.14.0 reinstate state modifiers for cron schedule
-  * v 0.13.2 retry when google calendar address changes
-  * v 0.13.1 fix json dependency
-  * v 0.13  more efficient crons, dropped states
-  * v 0.12.1 fix pywaverf option bug introduced in 0.11
-  * v 0.12  use non flash graph for energy usage
-  * v 0.11  use new energy monitor format
-  * v 0.10  fix lightwaverfhost issue, add quotes in readme
-  * v 0.9.2 fix bundling bug
-  * v 0.9.1 fix cron + update state only on change
-  * v 0.9   update device state in config file on change, a biggie!
-  * v 0.8   change to ical for google calendar + automated cron
-  * v 0.7   log to spreadsheet, fixed + smoothed graphs, embiggened config file
-  * v 0.6.4 stop "update" corrupting config
-  * v 0.6.3 fix corrupted devices in config
-  * v 0.6.2 another timezone fix
-  * v 0.6.1 fixed timezone issue
-  * v 0.6   randomised timers
-  * v 0.5   build a web page
-  * v 0.4   super timers!
-  * v 0.3   changed the format of the config file, adding configure option, and loading config from lightwavehost.co.uk
-  * v 0.3.2 eliminated need to specify WiFi Link IP address (host) in config, added option to update WiFi Link timezone and added ability to turn off all devices in a room
+# Trust the smart home even the insurance companies
+![insurance](doc/insurance.gif)
