@@ -4,10 +4,10 @@
 
 LightWaveRF WiFi link communication for command line home automation, Google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. Control your 220V lights, “smart” bulbs, changeable led (luminance and color), sockets, heating, tap water, curtain, screen, projector, camera, sound, lockers, access control, gas, TV, air conditioner, other home-related sensors. Also set up timers using a google calendar and log energy usage.
 
-Simple script dedicated to specific setup Ubiquiti Networks UniFi access point + lightwaverf bridge
+Simple script dedicated to specific setup Ubiquiti Networks UniFi access point + LightWaveRF bridge.
 
 # What does it do?
-The script compares curent time with Google calendar timing or today's sunrise and sunset times. If it's 30 min before sunset or sunrise and script will detect your device, for example mobile phone logging in to WiFi AC, it will send a signal to LightWaveRF bridge to switch on or off specific device.
+The script compares curent time with Google calendar timing or today's sunrise and sunset times. If it's 30 min. before sunset or sunrise and script will detect your device, for example mobile phone logging in to WiFi AC, it will send a signal to LightWaveRF bridge to switch ON or OFF specific device.
 
 # Setup
 Get a LightWaveRF WiFi-link for remote iPhone or Android Mobile Phone lighting control http://amzn.to/V7yPPK and a remote socket - connected light switch, double dimmer wireless - iOS, iPhone and Android Smart Home automation control http://amzn.to/RkukDo
