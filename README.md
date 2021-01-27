@@ -4,23 +4,25 @@
 
 LightWaveRF WiFi link communication for command line home automation, Google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. 
 Control your 
-* 220V lights (turning the lights ON/OFF),
-* “smart” bulbs - changeable led (luminance and color), 
-* sockets,
-* heating thermostat (temperature controllers),
-* tap water,
-* smart electric curtain tracks,
-* screen,
-* projector,
-* video camera,
-* sound,
-* lockers, 
-* access control, 
-* gas, 
-* TV, 
-* radio, 
-* air conditioner,
-* other home-related sensors. 
+* 220V light bulbs, outdoor lighting, utility lights (turning the lights ON/OFF)
+* changeable LED RGB (brightness, luminance and color, light effects)
+* power sockets & adaptors
+* heating thermostat (temperature controllers)
+* tap water
+* air conditioner (adjusting the temperature, humidity and air quality)
+* electric roller blinds and curtains
+* security (leak detection, electrovalve closed)
+* video camera (security and surveillance cameras)
+* alarm systems - safety (move detection, presence simulation, notification)
+* monitor displays & screen
+* projector
+* sound speaker
+* doors and gates lockers (access control) 
+* gas alarm sensor for home/kitchen (fire & smoke sensor)
+* TV
+* radio
+
+* other home-related sensors
 Also set up timers using a google calendar and log energy usage.
 
 Simple script dedicated to specific setup Ubiquiti Networks UniFi access point + LightWaveRF bridge.
