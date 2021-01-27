@@ -24,7 +24,7 @@ Remote control:
 * radio
 * personal computer (PC)
 * monitor displays & screen
-![homeautomation](doc/homeautomation.png)
+![Lighting-Automation](doc/Lighting-Automation.gif)
 Also set up timers using a google calendar and log energy usage.
 
 # What does it do?
