@@ -1,5 +1,5 @@
 # Web of Things Platform (WeT) - Overview
-![homeautomation](doc/homeautomation.png)
+![IoT](doc/IoT.png)
 # LightWaveRF Smart Home Automation based on Internet of Things
 
 LightWaveRF WiFi link communication for command line home automation, Google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. 
@@ -24,12 +24,12 @@ Remote control:
 * radio
 * personal computer (PC)
 * monitor displays & screen
-
+![homeautomation](doc/homeautomation.png)
 Also set up timers using a google calendar and log energy usage.
 
 # What does it do?
 The script compares curent time with Google calendar timing or today's sunrise and sunset times. If it's 30 min. before sunset or sunrise and script will detect your device, for example mobile phone logging in to WiFi AC, it will send a signal to LightWaveRF bridge to switch ON or OFF specific device.
-
+![smarthome](doc/smarthome.png)
 # Setup
 Get a LightWaveRF WiFi-link for remote iPhone or Android Mobile Phone lighting control http://amzn.to/V7yPPK and a remote socket - connected light switch, double dimmer wireless - iOS, iPhone and Android Smart Home automation control http://amzn.to/RkukDo
 
