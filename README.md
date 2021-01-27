@@ -1,5 +1,5 @@
 # Web of Things Platform (WeT) - Overview
-![IoT](doc/IoT.png)
+![IoT](doc/IoT.gif)
 # LightWaveRF Smart Home Automation based on Internet of Things
 
 LightWaveRF WiFi link communication for command line home automation, Google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. 
