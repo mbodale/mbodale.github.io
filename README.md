@@ -5,8 +5,8 @@
 LightWaveRF WiFi link communication for command line home automation, Google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. 
 
 Remote control:
-* 220V light bulbs, outdoor lighting, utility lights (turning the lights ON/OFF)
-* changeable LED RGB (light effects, brightness, luminance and color)
+* 220V light bulbs (turning the utility lights ON/OFF - outdoor lighting)
+* color changeable LED RGB (light effects, brightness, luminance and color)
 * power sockets & adaptors
 * heating thermostat (temperature controllers)
 * tap water
@@ -254,6 +254,8 @@ This will adjust the start/end times of the event 30 minutes earlier than the ac
 
 Note that this is useful when using sunset/sunrise based timers (see below)
 If you're setting events more than an hour away from the time of the calendar entry, adjust your crontab values accordingly.
+
+![smarthome-app](doc/smarthome-app.gif)
 
 ## Sunset/sunrise
 
