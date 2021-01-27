@@ -6,8 +6,13 @@ LightWaveRF WiFi link communication for command line home automation to manage t
 # Setup
 Get a LightWaveRF WiFi-link for remote iPhone or Android Mobile Phone lighting control http://amzn.to/V7yPPK and a remote socket - connected light switch, double dimmer wireless - iOS, iPhone and Android Smart Home automation control http://amzn.to/RkukDo
 
-Install gem
+# Install gem
 Then this code is available as a gem, so:
 
 gem install LightWaveRF
+
 No need to do anything with this repo unless you are particularly interested.
+
+Gem Version
+
+This code is unofficial and unaffiliated with http://www.lightwaverf.com, please let me know how you get on http://www.clarkeology.com/wiki/lightwaverf / @mbo
