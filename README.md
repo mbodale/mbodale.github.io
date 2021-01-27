@@ -23,7 +23,7 @@ No need to do anything with this repo unless you are particularly interested.
 
 [![Gem Version](https://badge.fury.io/rb/lightwaverf.png)](http://badge.fury.io/rb/lightwaverf)
 
-This code is unofficial and unaffiliated with http://www.lightwaverf.com, please let me know how you get on http://www.clarkeology.com/wiki/lightwaverf / @pauly
+This code is unofficial and unaffiliated with http://www.lightwaverf.com
 
 ## Setup config
 
