@@ -1,10 +1,17 @@
-# Lightwaverf - Overview
+# Web of Things Platform (WeT) - Overview
+*UniFi AC and LightWaveRF Smart Home Automation based on Internet of Things
 
-LightWaveRF wifi link communication for command line home automation. A ruby gem for lightwaverf home automation. Interact with lightwaverf wifi link from code or the command line. Control your lights, heating, sockets etc. Also set up timers using a google calendar and log energy usage.
+LightWaveRF WiFi link communication for command line home automation, google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. Control your 220V lights, “smart” bulbs, changeable led (luminance and color), sockets, heating, tap water, curtain, screen, projector, camera, sound, lockers, access control, gas, TV, air conditioner, other home-related sensors. Also set up timers using a google calendar and log energy usage.
+
+Simple script dedicated to specific setup Ubiquiti Networks UniFi access point + lightwaverf bridge
+
+# What does it do?
+The script compares curent time with today's sunrise and sunset times. If it's 30 min before sunset or sunrise and script will detect your device, for example mobile phone logging in to wifi AC, it will send a signal to lightwaverf bridge to switch on or off specific device.
 
 # Setup
+Get a LightWaveRF WiFi-link for remote iPhone or Android Mobile Phone lighting control http://amzn.to/V7yPPK and a remote socket - connected light switch, double dimmer wireless - iOS, iPhone and Android Smart Home automation control http://amzn.to/RkukDo
 
-Get a LightWaveRF wifi link http://amzn.to/V7yPPK and a remote socket http://amzn.to/RkukDo
+
 
 ## Install gem
 
@@ -286,10 +293,3 @@ I think this is down to the json library I am using, but haven't tracked it down
   * v 0.4   super timers!
   * v 0.3   changed the format of the config file, adding configure option, and loading config from lightwavehost.co.uk
   * v 0.3.2 eliminated need to specify WiFi Link IP address (host) in config, added option to update WiFi Link timezone and added ability to turn off all devices in a room
-
-# Thanks
-
-thanks to everyone in the lightwaverf community hackers forum http://lightwaverfcommunity.org.uk/forums/forum/lightwaverf-hackers/
-
-If you want to improve any of my docs or code then please fork this and send me a pull request and I'll merge it in.
-
