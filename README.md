@@ -11,28 +11,34 @@ Remote control:
 * heating thermostat (temperature controllers)
 * tap water
 * air conditioner (adjusting the temperature, humidity and air quality)
-* electric roller blinds and curtains
-* security (leak detection, electrovalve closed)
+* gas security (leak detection, electrovalve closed)
 * doors and gates lockers (access control) 
-* gas alarm sensor for home/kitchen (fire & smoke sensor)
+* electric roller blinds and curtains
+* auto open/close window
 * video camera (security and surveillance cameras)
-* alarm systems
-* safety sensors (move detection, presence simulation, notification)
-* projector
-* sound speaker
+* alarm systems (fire & smoke sensor)
+* safety detectors (move detection, presence simulation, notification)
 * TV
 * radio
-* personal computer (PC)
+* computer (desktop PC / laptop)
 * monitor displays & screen
+* projector
+* sound speaker
+
+Devices controller (peripherals / modules)  you will want to purchase: 
+* Dimmers, Switches, Outlets, Sensors & Timers
+* Lighting & Appliance Remote Controls
+* Smart Plumbing & Irrigation
+
 ![Lighting-Automation](doc/Lighting-Automation.gif)
 Also set up timers using a google calendar and log energy usage.
 
 # What does it do?
 The script compares curent time with Google calendar timing or today's sunrise and sunset times. If it's 30 min. before sunset or sunrise and script will detect your device, for example mobile phone logging in to WiFi AC, it will send a signal to LightWaveRF bridge to switch ON or OFF specific device.
 ![smarthome](doc/smarthome.png)
+
 # Setup
 Get a LightWaveRF WiFi-link for remote iPhone or Android Mobile Phone lighting control http://amzn.to/V7yPPK and a remote socket - connected light switch, double dimmer wireless - iOS, iPhone and Android Smart Home automation control http://amzn.to/RkukDo
-
 
 ## Install gem
 
