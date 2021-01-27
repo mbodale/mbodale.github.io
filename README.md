@@ -1,6 +1,6 @@
 # Web of Things Platform (WeT) - Overview
 ![header](doc/header.png)
-*# LightWaveRF Smart Home Automation based on Internet of Things
+# LightWaveRF Smart Home Automation based on Internet of Things
 
 LightWaveRF WiFi link communication for command line home automation, Google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. 
 Control your 
@@ -121,6 +121,8 @@ Tip: I have found that you can actually pair a single device to 2 different devi
 This means that you can set up a 'device' in slot D4 which will actually control all the devices at once. Just remember not to to call it 'all' as this is used as a keyword in the code to do the same thing in a different way as per the above.
 
 # Automated timers (via Google Calendar)
+
+![google-calendar](doc/google-calendar.png)
 
 This functionality allows you to create simple or complex schedules to automatically control all your devices (and set moods, run sequences) by simply creating a Google Calendar (gcal) and adding entries to it for the actions you wish to take. You have all the power of gcal's recurrence capabilities to set repeating events.
 
