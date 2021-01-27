@@ -1,18 +1,57 @@
-# Web of Things Platform (WeT) - Overview
-* LightWaveRF Smart Home Automation based on Internet of Things 
+# welcome-home
+Welcome home light automation with UniFi AC and lightwaverf
 
-LightWaveRF WiFi link communication for command line home automation, google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. Control your 220V lights, "smart" bulbs, changeable led (luminance and color), sockets, heating, tap water, curtain, screen, projector, camera, sound, lockers, access control, gas, TV, air conditioner, other home-related sensors. Also set up timers using a google calendar and log energy usage.
+Simple script dedicated to specific setup Ubiquiti Networks UniFi access point + lightwaverf bridge
 
-# Setup
-Get a LightWaveRF WiFi-link for remote iPhone or Android Mobile Phone lighting control http://amzn.to/V7yPPK and a remote socket - connected light switch, double dimmer wireless - iOS, iPhone and Android Smart Home automation control http://amzn.to/RkukDo
 
-# Install gem
-Then this code is available as a gem, so:
+# What does it do?
 
-gem install LightWaveRF
+The script compares curent time with today's sunrise and sunset times. If it's 30 min before sunset or sunrise and script will detect your device, for example mobile phone logging in to wifi AC, it will send a signal to lightwaverf bridge to switch on or off specific device.
 
-No need to do anything with this repo unless you are particularly interested.
+# Running 
 
-Gem Version
+- Please update hello-home.py
+```
+home.lat = '51:28:38'
+```
+To match your location. This wil quarantee corect sunrise/sunset times
 
-This code is unofficial and unaffiliated with http://www.lightwaverf.com, please let me know how you get on http://www.clarkeology.com/wiki/lightwaverf / @mbo
+- Instal requirements
+```sh
+$ pip install -r requirements.txt
+```
+
+- Run script -h to display menu
+```sh
+$ ./hello-home.py -h
+usage: hello-home.py [-h] [-c CONTROLLER] [-u USERNAME] [-p PASSWORD]
+                     [-b CPORT] [-v VERSION] [-s SITEID] [-l LIGHTWAVERF]
+                     [-t LPORT] [-a ACTIVATE] [-m MAC]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CONTROLLER, --controller CONTROLLER
+                        the controller address (default "unifi")
+  -u USERNAME, --username USERNAME
+                        the controller username (default("admin")
+  -p PASSWORD, --password PASSWORD
+                        the controller password
+  -b CPORT, --cport CPORT
+                        the controller port (default "8443")
+  -v VERSION, --version VERSION
+                        the controller base version (default "v5")
+  -s SITEID, --siteid SITEID
+                        the site ID, UniFi >=3.x only (default "default")
+  -l LIGHTWAVERF, --lightwaverf LIGHTWAVERF
+                        Lightwaverf bridge IP
+  -t LPORT, --lport LPORT
+                        Lightwaverf bridge port (default 2011)
+  -a ACTIVATE, --activate ACTIVATE
+                        Activate device example (Room1 Device1 ON = R1D1F1
+  -m MAC, --mac MAC     Mac address of the device to monitor
+$ 
+```
+An example of swithing on the light in Room1 Device1 ON
+
+```
+$ ./hello-home.py -c <UniFi IP> -u <username> -p <password> -l <LWRFbridgeIP> -a R1D1F1
