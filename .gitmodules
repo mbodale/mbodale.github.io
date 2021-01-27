@@ -1,3 +1,3 @@
 [submodule "app"]
 	path = app
-	url = http://github.com/mbodale/lightwaverf-app.git
+	url = http://github.com/pauly/lightwaverf-app.git
