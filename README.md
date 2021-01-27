@@ -1,4 +1,3 @@
-![header](doc/header.png)
 # Web of Things Platform (WeT) - Overview
 ![homeautomation](doc/homeautomation.png)
 # LightWaveRF Smart Home Automation based on Internet of Things
@@ -26,8 +25,6 @@ Control your
 * monitor displays & screen
 
 Also set up timers using a google calendar and log energy usage.
-
-Simple script dedicated to specific setup Ubiquiti Networks UniFi access point + LightWaveRF bridge.
 
 # What does it do?
 The script compares curent time with Google calendar timing or today's sunrise and sunset times. If it's 30 min. before sunset or sunrise and script will detect your device, for example mobile phone logging in to WiFi AC, it will send a signal to LightWaveRF bridge to switch ON or OFF specific device.
