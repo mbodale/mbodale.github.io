@@ -4,10 +4,22 @@
 
 LightWaveRF WiFi link communication for command line home automation, Google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. 
 Control your 
-* 220V lights,
+* 220V lights (turning the lights ON/OFF),
 * “smart” bulbs - changeable led (luminance and color), 
 * sockets,
-* heating, * tap water, * curtain, * screen, * projector, * video camera, * sound, * lockers, * access control, * gas, * TV, * radio, * air conditioner,
+* heating thermostat (temperature controllers),
+* tap water,
+* smart electric curtain tracks,
+* screen,
+* projector,
+* video camera,
+* sound,
+* lockers, 
+* access control, 
+* gas, 
+* TV, 
+* radio, 
+* air conditioner,
 * other home-related sensors. 
 Also set up timers using a google calendar and log energy usage.
 
