@@ -1,4 +1,5 @@
-# Lightwaverf - Overview
+# Web of Things Platform (WeT) - Overview
+LightwaveRF Home Automation based on Internet of Things 
 
 LightWaveRF wifi link communication for command line home automation. A ruby gem for lightwaverf home automation. Interact with lightwaverf wifi link from code or the command line. Control your lights, heating, sockets etc. Also set up timers using a google calendar and log energy usage.
 
