@@ -6,7 +6,9 @@ LightWaveRF WiFi link communication for command line home automation, Google cal
 Control your 
 * 220V lights,
 * “smart” bulbs - changeable led (luminance and color), 
-* sockets, heating, tap water, curtain, screen, projector, camera, sound, lockers, access control, gas, TV, radio, air conditioner, other home-related sensors. 
+* sockets,
+* heating, * tap water, * curtain, * screen, * projector, * video camera, * sound, * lockers, * access control, * gas, * TV, * radio, * air conditioner,
+* other home-related sensors. 
 Also set up timers using a google calendar and log energy usage.
 
 Simple script dedicated to specific setup Ubiquiti Networks UniFi access point + LightWaveRF bridge.
