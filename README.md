@@ -35,6 +35,7 @@ Also set up timers using a Google Calendar and log energy usage.
 
 # What does it do?
 The script compares curent time with Google Calendar timing or today's sunrise and sunset times. If it's 30 min. before sunset or sunrise and script will detect your device, for example mobile phone logging in to WiFi AC, it will send a signal to LightWaveRF bridge to switch ON or OFF specific device.
+
 ![smarthome](doc/smarthome.png)
 
 # Setup
@@ -124,6 +125,8 @@ Tip: I have found that you can actually pair a single device to 2 different devi
     Spotlights D3 & D4
     
 This means that you can set up a 'device' in slot D4 which will actually control all the devices at once. Just remember not to to call it 'all' as this is used as a keyword in the code to do the same thing in a different way as per the above.
+
+![smart-home-app](doc/smart-home-app.gif)
 
 # Automated timers (via Google Calendar)
 
@@ -224,7 +227,9 @@ And you can execute sequences using the calendar by creating an eventas follows:
 
 ## States - DEPRACATED
 
-I'm not using states, I'm no longer developing this area. They should still work but are unsupported since v0.13 (not that anyone gets in touch anyway).
+![thermostat](doc/thermostat.gif)
+
+I'm not using states, I'm no longer developing this area.
 
 States offer a way of getting greater flexibility to manage your devices. Essentially, you can create a special gcal entry that sets a state for the period that that entry covers. You can then make other events dependent on that state either being true or false.
 
