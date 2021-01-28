@@ -13,11 +13,12 @@ Remote control:
 * air conditioner (adjusting the temperature, humidity and air quality)
 * gas security (leak detection, electrovalve closed)
 * doors and gates lockers (access control) 
+* video camera (security and surveillance cameras)
+* alarm systems
+* safety detectors (move detection, presence simulation, notification)
+* fire & smoke sensor
 * electric roller blinds and curtains
 * auto open/close window
-* video camera (security and surveillance cameras)
-* alarm systems (fire & smoke sensor)
-* safety detectors (move detection, presence simulation, notification)
 * TV
 * radio
 * computer (desktop PC / laptop)
@@ -81,7 +82,7 @@ Note that if you are already using the iPhone/other app, then your device pairin
 
 ## How to build the gem from the source
     sudo apt-get install ruby git-core gem
-    git clone git://github.com/pauly/lightwaverf.git
+    git clone git://github.com/mbodale/lightwaverf.git
     cd lightwaverf 
     git submodule update --init
     gem build lightwaverf.gemspec && sudo gem install ./lightwaverf-*.gem
