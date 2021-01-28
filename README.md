@@ -101,6 +101,8 @@ Here is some sample output: http://pauly.github.io/lightwaverf
 
 # Usage
 
+![Light](doc/Light.gif)
+
 ## Simple device control
 
 You can set the state of any device with commands such as the following:
@@ -207,8 +209,6 @@ Note that pauses can be added (in seconds)
 
     lightwaverf configure   
     
-![Light](doc/Light.gif)
-
 ## Timer usage
 
 Once setup, you can create various entries to control as follows:
