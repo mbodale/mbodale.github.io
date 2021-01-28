@@ -70,7 +70,7 @@ Then "pair" your code with your device as normal, put it in pairing mode then tu
 
     lightwaverf firmware
 
-The first time you try to pair a device from the computer look out for the "pair with this device" message on the wifi link lcd screen, and click the button to accept.
+The first time you try to pair a device from the computer look out for the "pair with this device" message on the WiFi link LCD screen, and click the button to accept.
 
 Note that if you are already using the iPhone/other app, then your device pairings may already be done. The wifilink is a single transmitter from the actual device's perspective - all clients (so your iPhone and PC running this ruby program) are the same thing.
 
@@ -231,8 +231,6 @@ And you can execute sequences using the calendar by creating an eventas follows:
 ## States - DEPRACATED
 
 ![thermostat](doc/thermostat.gif)
-
-I'm not using states, I'm no longer developing this area.
 
 States offer a way of getting greater flexibility to manage your devices. Essentially, you can create a special gcal entry that sets a state for the period that that entry covers. You can then make other events dependent on that state either being true or false.
 
