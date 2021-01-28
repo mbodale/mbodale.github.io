@@ -2,7 +2,7 @@
 ![IoT](doc/IoT.gif)
 # LightWaveRF Smart Home Automation based on Internet of Things
 
-LightWaveRF WiFi link communication for command line home automation, Google calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. 
+LightWaveRF WiFi link communication for command line home automation, Google Calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. 
 
 Remote control:
 * 220V light bulbs (turning the utility lights ON/OFF - outdoor lighting)
@@ -14,8 +14,7 @@ Remote control:
 * gas security (leak detection, electrovalve closed)
 * doors and gates lockers (access control) 
 * video camera (security and surveillance cameras)
-* alarm systems
-* safety detectors (move detection, presence simulation, notification)
+* alarm systems (safety detectors, move detection, presence simulation, notification)
 * fire & smoke sensor
 * electric roller blinds and curtains
 * auto open/close window
@@ -26,16 +25,16 @@ Remote control:
 * projector
 * sound speaker
 
-Devices controller (peripherals / modules)  you will want to purchase: 
-* Dimmers, Switches, Outlets, Sensors & Timers
-* Lighting & Appliance Remote Controls
-* Smart Plumbing & Irrigation
+Devices controller (peripherals / modules) you will want to purchase: 
+* dimmers, switches, outlets, sensors & timers
+* lighting & appliance remote controls
+* smart plumbing & irrigation
 
 ![Lighting-Automation](doc/Lighting-Automation.gif)
-Also set up timers using a google calendar and log energy usage.
+Also set up timers using a Google Calendar and log energy usage.
 
 # What does it do?
-The script compares curent time with Google calendar timing or today's sunrise and sunset times. If it's 30 min. before sunset or sunrise and script will detect your device, for example mobile phone logging in to WiFi AC, it will send a signal to LightWaveRF bridge to switch ON or OFF specific device.
+The script compares curent time with Google Calendar timing or today's sunrise and sunset times. If it's 30 min. before sunset or sunrise and script will detect your device, for example mobile phone logging in to WiFi AC, it will send a signal to LightWaveRF bridge to switch ON or OFF specific device.
 ![smarthome](doc/smarthome.png)
 
 # Setup
@@ -59,7 +58,7 @@ You need a config file in your home directory, to build one
 
     lightwaverf configure
 
-Or if you have already uploaded your data to the LightwaveRF server, download this data by typing
+Or if you have already uploaded your data to the LightWaveRF server, download this data by typing
 
     lightwaverf update 
 
@@ -96,7 +95,7 @@ It is now a submodule in the app folder, though I'm not supporting it... build a
 
     lightwaverf configure
 
-Here is some sample output: http://pauly.github.io/lightwaverf/
+Here is some sample output: http://pauly.github.io/lightwaverf
 
 # Usage
 
