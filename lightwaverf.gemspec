@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors     = [ 'Marin Bodale' ]
   s.email       = 'mbodale@yahoo.com'
   s.files       = [ 'lib/lightwaverf.rb', 'app/views/_graphs.ejs' ]
-  s.homepage    = 'http://mbodale.github.io'
+  s.homepage    = 'https://mbodale.github.io'
   s.executables << 'lightwaverf'
   s.executables << 'lightwaverf-config-json'
   s.add_runtime_dependency 'htmlentities'
