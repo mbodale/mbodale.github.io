@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
     Control your lights, heating, sockets, sprinkler etc.
     Also use ical calendar, for timers, log energy usage, and build a website.
   end
-  s.authors     = [ 'Paul Clarke', 'Ian Perrin', 'Julian McLean' ]
-  s.email       = 'pauly@clarkeology.com'
+  s.authors     = [ 'Marin Bodale' ]
+  s.email       = 'mbodale@yahoo.com'
   s.files       = [ 'lib/lightwaverf.rb', 'app/views/_graphs.ejs' ]
-  s.homepage    = 'http://www.clarkeology.com/project/lightwaverf'
+  s.homepage    = 'http://mbodale.github.io'
   s.executables << 'lightwaverf'
   s.executables << 'lightwaverf-config-json'
   s.add_runtime_dependency 'htmlentities'
