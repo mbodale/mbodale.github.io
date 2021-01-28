@@ -204,7 +204,9 @@ Note that pauses can be added (in seconds)
 
 ## Crontab setup
 
-    lightwaverf configure
+    lightwaverf configure   
+    
+![Light](doc/Light.gif)
 
 ## Timer usage
 
@@ -250,6 +252,8 @@ You can then make events dependent on the state by adding modifiers to the title
 You can use any number of modifiers which will all be considered with AND boolean logic (i.e. every condition must be met)
 
 Note that all-day events are not currently supported, so your states (and all events for that matter) will need to define a start and end time.
+
+![living](doc/living.gif)
 
 ## Other modifiers
 
