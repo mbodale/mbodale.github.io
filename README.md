@@ -101,7 +101,7 @@ Here is some sample output: http://pauly.github.io/lightwaverf
 
 # Usage
 
-![smarthome-app](doc/smarthome-app.gif)
+![living](doc/living.gif)
 
 ## Simple device control
 
@@ -209,7 +209,7 @@ Note that pauses can be added (in seconds)
 
     lightwaverf configure   
     
-![Light](doc/Light.gif)
+![smarthome-app](doc/smarthome-app.gif)
 
 ## Timer usage
 
@@ -230,7 +230,7 @@ And you can execute sequences using the calendar by creating an eventas follows:
 
     sequence sunset - run the sequence called 'sunset' in your configuration
 
-![thermostat](doc/thermostat.gif)
+![Light](doc/Light.gif)
 
 ## States - DEPRACATED
 
@@ -254,7 +254,7 @@ You can use any number of modifiers which will all be considered with AND boolea
 
 Note that all-day events are not currently supported, so your states (and all events for that matter) will need to define a start and end time.
 
-![living](doc/living.gif)
+![thermostat](doc/thermostat.gif)
 
 ## Other modifiers
 
