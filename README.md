@@ -101,7 +101,7 @@ Here is some sample output: http://pauly.github.io/lightwaverf
 
 # Usage
 
-![Light](doc/Light.gif)
+![smarthome-app](doc/smarthome-app.gif)
 
 ## Simple device control
 
@@ -209,6 +209,8 @@ Note that pauses can be added (in seconds)
 
     lightwaverf configure   
     
+![Light](doc/Light.gif)
+
 ## Timer usage
 
 Once setup, you can create various entries to control as follows:
@@ -228,9 +230,9 @@ And you can execute sequences using the calendar by creating an eventas follows:
 
     sequence sunset - run the sequence called 'sunset' in your configuration
 
-## States - DEPRACATED
-
 ![thermostat](doc/thermostat.gif)
+
+## States - DEPRACATED
 
 States offer a way of getting greater flexibility to manage your devices. Essentially, you can create a special gcal entry that sets a state for the period that that entry covers. You can then make other events dependent on that state either being true or false.
 
@@ -268,8 +270,6 @@ This will adjust the start/end times of the event 30 minutes earlier than the ac
 
 Note that this is useful when using sunset/sunrise based timers (see below)
 If you're setting events more than an hour away from the time of the calendar entry, adjust your crontab values accordingly.
-
-![smarthome-app](doc/smarthome-app.gif)
 
 ## Sunset/sunrise
 
