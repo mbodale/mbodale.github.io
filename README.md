@@ -4,6 +4,8 @@
 
 LightWaveRF WiFi link communication for command line home automation, Google Calendar timing of your electrics or energy monitoring to manage the amazing Smart Home Platform with your Android smartphone or tablet. A ruby gem for LightWaveRF home automation. Interact with LightWaveRF WiFi link from code or the command line. 
 
+![Lighting-Automation](doc/Lighting-Automation.gif)
+
 Remote control:
 * 220V light bulbs (turning the utility lights ON/OFF - outdoor lighting)
 * color changeable LED RGB (light effects, brightness, luminance and color)
@@ -30,7 +32,6 @@ Devices controller (peripherals / modules) you will want to purchase:
 * lighting & appliance remote controls
 * smart plumbing & irrigation
 
-![Lighting-Automation](doc/Lighting-Automation.gif)
 Also set up timers using a Google Calendar and log energy usage.
 
 # What does it do?
@@ -277,6 +278,8 @@ If you're setting events more than an hour away from the time of the calendar en
 In order to trigger events based on local sunset/sunrise, you can play a neat trick with the "if this then that" service (www.ifttt.com). Essentially, you can set up a daily job that will automatically create a gcal entry at the start of each day where the start time is the local sunset or sunrise. I use this to create and entry daily which runs a certain sequence. See this IFTTT recipe as an example: https://ifttt.com/recipes/96584
 
 In conjunction with the time modifiers above, you can schedule events to occur relative to the local sunset/sunrise - e.g do something one hour after sunset.
+
+![curtain](doc/curtain.gif)
     
 ## Some example timer use cases
 
@@ -293,19 +296,6 @@ Here are some ideas on things to automate with the timers:
 * Issue: Does not currently support "all-day" events created in Google Calendar - can be worked around by always specifying start/end times, even if they are 00:00. (This needs some more work on the regex that parses the dates and times from the gcal feed)
 * Improvement: The regex for parsing dates and times from the gcal feed needs to be improved and tightened up
 
-## Problems installing?
-
-If you get an error along the lines of
-
-    /usr/bin/ruby1.9.1 extconf.rb
-    /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require’: cannot load such file — mkmf (LoadError)
-    from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require’
-    from extconf.rb:1:in `’
-
-try
-
-    sudo apt-get install ruby1.9.1-dev
-
-I think this is down to the json library I am using, but haven't tracked it down yet. If you can help, please pull request!
 # Trust the smart home even the insurance companies
+
 ![insurance](doc/insurance.gif)
